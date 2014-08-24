@@ -1,23 +1,27 @@
-getdata-006-course-project
+Getting and Cleaning Data Course Project
 ==========================
 
-IMPORTANT NOTE:
+<h3>IMPORTANT NOTE:</h3>
 When running run_analysis.R, please ensure that you have downloaded and unzipped the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Then, ensure that your working directory is set to "UCI HAR Dataset", otherwise the script will not run.
 
+<h3>Note about speed:</h3>
 The script will take a while to run, please be patient whilst the script is running.
 
-Once you have downloaded the dataset and set your working directory to "UCI HAR Dataset", download run_analysis.R and place it in the working directory. 
+<h3>Instructions:</h3>
+1. Download the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Unzip the dataset. You will now have a "UCI HAR Dataset" folder.
+3. Set your working directory to "UCI HAR Dataset"
+4. Download "run_analysis.R" into the working directory.
+5. Use source("run_analysis.R") to run the script. 
 
-Use source("run_analysis.R") to run the script. 
-
+<h3>Note about features</h3>
 The labels for the features are identical to the labels stored in features.txt. While they could have been cleaned up further, I have kept their original names to make any later analysis easier with reference to the readme files from the original data set.
 
-The script will output two files:
+<h3>Expected output:</h3>
 1. tidydataset1.txt - This file is a tidy data set, where the mean and standard deviations in the original dataset have been extracted and cleaned up. 
 2. tidydataset2.txt - This file is a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-The script works as follows:
-
+<h3>Process:</h3>
 1. Reads subject files from test and train folders
 2. Reads X files from test and train folders
 3. Reads y files from test and train folders
