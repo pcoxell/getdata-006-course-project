@@ -54,7 +54,7 @@ run_analysis.R is commented so you can follow these steps in the code.
 
 <h3>Expected output:</h3>
 1. 'tidydataset1.txt' - This file is a tidy data set, where the mean and standard deviations in the original dataset have been extracted and cleaned up. 
-2. 'tidydataset2.txt' - This file is a second, independent tidy data set with the average of each variable for each activity and each subject. 
+2. 'tidydataset2.txt' - This file is a second, independent tidy data set with the average of each variable for each activity and each subject. (This is the file that was uploaded for the dataset submission on Coursera)
 
 <h3>About the output data sets:</h3>
 Both datasets are outputted in the same format, so the description below applies to both 'tidydataset1.txt' and 'tidydataset2.txt'.
