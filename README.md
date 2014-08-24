@@ -4,6 +4,8 @@ getdata-006-course-project
 IMPORTANT NOTE:
 When running run_analysis.R, please ensure that you have downloaded and unzipped the data set from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Then, ensure that your working directory is set to "UCI HAR Dataset", otherwise the script will not run.
 
+The script will take a while to run, please be patient whilst the script is running.
+
 Once you have downloaded the dataset and set your working directory to "UCI HAR Dataset", download run_analysis.R and place it in the working directory. 
 
 Use source("run_analysis.R") to run the script. 
